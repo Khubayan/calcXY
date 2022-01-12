@@ -32,7 +32,7 @@ while ulang == 1:
     for i in range(n):
         print("| " + str(i) + "\t|\t"+ str(float(x[i])) +"\t|\t"+ str(float(y[i])) +"\t|\t" + str(float(x[i] * y[i])) +"\t|\t" + str(float(x[i] * x[i])) + "\t|\t"+ str(float(y[i] * y[i])) +"\t|")
         nilaiX += float(x[i])
-        nilaiY += float(x[i])
+        nilaiY += float(y[i])
         XkaliY += float(x[i] * y[i])
         xPangkat += float(x[i] * x[i])
         yPangkat += float(y[i] * y[i])
